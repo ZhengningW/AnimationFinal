@@ -1,0 +1,72 @@
+ <!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+    <title>transition</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <style>
+      body
+      {
+        background-image: url("images/sunset.jpg");
+      }
+         #transition {
+          margin-left: auto;
+          margin-right: auto;
+          width: 200px;
+          height: 200px;
+          background: lightblue;
+          -webkit-transition: width 3s, height 3s;
+          transition: width 3s, height 3s;
+        }
+        #transition:hover{
+          width: 500px;
+          height: 500px;
+          background: yellow;
+          opacity: 0.5;
+        }
+      </style>
+  </head>
+<nav>
+    <li><a href="index.html">Home</a></li>
+   <li><a href="sprite.html">Sprite Animation</a></li>
+<li><a href="transform.html">Transform</a></li>
+</nav>
+
+
+
+
+  <body>
+<div id="main">
+  <img id="countryside" src="images/countryside.png">
+<img id="bus" src="images/bus.png">
+<img id="ground" src="images/ground.png">
+    </div>
+<div id="clouds">
+  <img id="clound2" src="images/yun1.png">
+  <img id="clound3" src="images/yun3.png">
+</div>
+
+<div id="transition" align="center">
+<h5>Transition</h5>
+<p>When you move your mouse on this square, it will change it's size.</p>
+
+</div>
+
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>

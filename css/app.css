@@ -1,0 +1,104 @@
+nav{
+    list-style-type: none;
+    margin-top:10px;
+    padding:0;
+    overflow: hidden;
+}
+li{
+  float: right;
+  font-family: 'Spicy Rice', cursive;
+}
+li a{
+  display: block;
+  padding:9px;
+  background-color:#dddddd;
+  border-radius: 20px;
+  opacity: 0.45;
+
+}
+
+
+div main{
+  position:fixed;
+  width: 10px;
+  height:30px;
+  margin-bottom: 30px;
+  -webkit-animation: drive 8s infinite;
+  }
+/*bus part*/
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@-webkit-keyframes drive {
+  from{left: 0px;}
+  to{left:2500px;}
+}
+@keyframes drive{
+  from{left: 0px;}
+  to{left:2500px;}
+
+}
+#bus{
+  -webkit-animation: drive 8s infinite;
+  position: fixed;
+  bottom: 20px;
+}
+
+/*end of bus part*/
+
+/*ground part*/
+#ground{
+  position: fixed;
+  bottom: 0px;
+  width: 999999999px;
+  height: 18px;
+}
+
+
+
+
+
+/*end of ground part*/
+
+/*mountain part*/
+#mountain{
+
+width: 9999px;
+position: fixed;
+bottom:18px;
+}
+/*end of mountaion part*/
+
+/*city part*/
+#city{
+width: 9999px;
+position: fixed;
+bottom:18px;
+}
+/*city end*/
+
+/*village part*/
+#countryside{
+  width: 9999px;
+position: fixed;
+bottom:18px;
+}
+/*village end*/
+
+/*clouds*/
+#clouds{
+  position: fixed;
+  top: 20px;
+}
+/*end clouds*/
+
+#transform{
+  width: 9999px;
+position: fixed;
+bottom:18px;
+}
+
+
+/*end clouds*/
